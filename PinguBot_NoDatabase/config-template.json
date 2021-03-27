@@ -1,0 +1,6 @@
+{
+	"prefix": ">",
+	"token": "Your bot token",
+	"bot website": "A URL to bot's website, used by about command",
+	"bot owner website": "A URL to bot owner's website, used by about command"
+}
