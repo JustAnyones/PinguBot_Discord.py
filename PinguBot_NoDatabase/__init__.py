@@ -60,7 +60,7 @@ async def on_message(message):
 
     # Handle special events apart from commands
     if 'noot noot' in lowercaseContent or 'hello pingu' in lowercaseContent:
-        await message.channel.send(f'<noot emoji here> Noot Noot! Hello {authorUsername}, please use {prefix}help for usage information.')
+        await message.channel.send(f'<noot emoji here> Noot Noot! Hello {authorUsername}, please use {client.prefix}help for usage information.')
     elif 'noot' in lowercaseContent:
         await message.reply('<emoji here> noot!')
 
