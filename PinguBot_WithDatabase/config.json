@@ -1,8 +1,0 @@
-{
-	"DefaultPrefix": ">",
-	"token": "Enter all appropariate fields here",
-	"BotAuthorID": "",
-	"DatabaseUser": "This bot uses a MySQL server for DB functionality",
-	"DatabasePassword": "",
-	"DatabaseName": ""
-}
