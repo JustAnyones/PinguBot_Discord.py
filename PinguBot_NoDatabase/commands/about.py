@@ -11,6 +11,7 @@ class About(commands.Cog):
         embed = Embed(
             title='Pingu Bot',
             description='A simple Discord Bot that\'s somewhat useful?',
+            colour=0x0099ff,
             url=self.client.config.get('bot website', EmptyEmbed),
             timestamp=datetime.now()
         )
