@@ -23,6 +23,7 @@ class PinguBot(commands.Bot):
     def __init__(self, config):
         self.config = config
         self.prefix = self.config.get('prefix', '>')
+        self.nooter = '<:squat_pingu:667923977603121185>' # Pingu emoji
         super().__init__(command_prefix=self.prefix, help_command=None, case_insensitive=True)
 
         # Loads commands
@@ -60,9 +61,9 @@ async def on_message(message):
 
     # Handle special events apart from commands
     if 'noot noot' in lowercaseContent or 'hello pingu' in lowercaseContent:
-        await message.channel.send(f'<noot emoji here> Noot Noot! Hello {authorUsername}, please use {client.prefix}help for usage information.')
+        await message.channel.send(f'{client.nooter} Noot Noot! Hello {authorUsername}, please use {client.prefix}help for usage information.')
     elif 'noot' in lowercaseContent:
-        await message.reply('<emoji here> noot!')
+        await message.reply(f'{client.nooter} noot!')
 
     if 'sad' in lowercaseContent:
         await message.reply('https://www.youtube.com/watch?v=kGOQfLFzJj8')
