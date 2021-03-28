@@ -7,18 +7,14 @@ Well for a long time I had been wanting to make a bot on Discord. The idea seeme
 
 # What Can Pingu Bot do?
 While you won't find anything extraordinary as part of this bot’s functionality, it still might feature some neat commands for those interested in making a bot of their own. Pingu bot features **20 commands** with some additional secret ones triggered by certain messages. The default prefix for the bot is `">"` and that may be altered to anything else in the config.json file. 
-### Config.json file configurations:
+### config.json file configurations:
  ```
 "prefix": ">",
 "token": "Enter your Bot Token here",
-"BotAuthorID": "Enter Your Discord ID (Obtainable by enabling Developer Mode)",
-"BotOwnerName": "Name of Bot Owner [The following tags will be used to populate the Help and About commands]",
-"BotOwnerImageURL": "URL to Author's image",
-"BotImageURL": "URL to Bot's image",
-"FooterText": "Text on the footer of the Embeds",
-"FooterURL": "A URL that can take users to the Bot's site or something related of your choice"
+"bot website": "URL to bot's website, used by about command",
+"bot owner website": "URL to bot owner's website, used by about command"
  ```
-Replace all name/value pairs to appropriate values for the bot to function correctly! Prefix, Token, and BotAuthorID being the most crucial.
+Replace all name/value pairs to appropriate values for the bot to function correctly! Prefix, and token being the most crucial.
 
 ### Commands:
 ``` 
